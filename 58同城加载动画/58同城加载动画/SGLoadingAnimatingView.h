@@ -25,7 +25,7 @@
 - (void)helperAnimationDidStop:(CAAnimation *)anim finished:(BOOL)flag;
 @end
 
-@interface SGLoadingAnimatingViewHelper : NSObject
+@interface SGLoadingAnimatingViewHelper : NSObject<CAAnimationDelegate>
 /**
  *  动画代理
  */

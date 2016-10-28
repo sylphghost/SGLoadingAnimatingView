@@ -13,7 +13,6 @@
 #import "MBProgressHUD+Add.h"
  NSString *const text=@"asdads";
 @interface ViewController ()
-
 @property(strong,nonatomic) SGLoadingAnimatingView *loadingV;
 @end
 
@@ -21,18 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     //  NSLog(@"%@",text);
-    [MBProgressHUD showAnimationLoadingWithTitle:@"加载中..." toView:self.view];
-    UIBarButtonItem *rightItem=[[UIBarButtonItem alloc]initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(rightButton:)];
+    UIBarButtonItem *rightItem=[[UIBarButtonItem alloc]initWithTitle:@"remove" style:UIBarButtonItemStylePlain target:self action:@selector(rightButtonAction:)];
+    UIBarButtonItem *leftItem =[[UIBarButtonItem alloc] initWithTitle:@"show" style:UIBarButtonItemStylePlain target:self action:@selector(leftButtonAction:)];
+    
     self.navigationItem.rightBarButtonItem=rightItem;
-//    SGLoadingAnimatingView *animation=[SGLoadingAnimatingView new];
-//    _loadingV=animation;
-//    animation.centerX=self.view.width/2;
-//    animation.centerY=self.view.height/2;
-//   // animation.backgroundColor=[UIColor grayColor];
-//    [self.view addSubview:animation];
-//    [animation startAnimating];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.leftBarButtonItem=leftItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,12 +32,11 @@
  
     // Dispose of any resources that can be recreated.
 }
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)leftButtonAction:(UIBarButtonItem *)senderr{
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
     [MBProgressHUD showAnimationLoadingWithTitle:@"加载中..." toView:self.view];
 }
-- (void)rightButton:(UIBarButtonItem *)sender{
+- (void)rightButtonAction:(UIBarButtonItem *)sender{
     [MBProgressHUD hideHUDForView:self.view animated:YES];
-
-
 }
 @end
