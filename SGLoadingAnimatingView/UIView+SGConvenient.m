@@ -6,9 +6,9 @@
 //  Copyright © 2015年 sylphghost. All rights reserved.
 //
 
-#import "UIView+sg_Convenient.h"
+#import "UIView+SGConvenient.h"
 
-@implementation UIView (sg_Convenient)
+@implementation UIView (SGConvenient)
 - (CGFloat)left{
     return self.frame.origin.x;
 }

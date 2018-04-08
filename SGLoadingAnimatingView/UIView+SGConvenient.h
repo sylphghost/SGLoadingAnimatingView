@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (sg_Convenient)
+@interface UIView (SGConvenient)
 @property (nonatomic) CGFloat left;        ///< Shortcut for frame.origin.x.
 @property (nonatomic) CGFloat top;         ///< Shortcut for frame.origin.y
 @property (nonatomic) CGFloat right;       ///< Shortcut for frame.origin.x + frame.size.width

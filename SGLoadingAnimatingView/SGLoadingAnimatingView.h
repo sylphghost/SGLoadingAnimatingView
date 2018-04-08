@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "UIView+SGConvenient.h"
 @interface SGLoadingAnimatingView : UIView
 /**
  *  开始动画

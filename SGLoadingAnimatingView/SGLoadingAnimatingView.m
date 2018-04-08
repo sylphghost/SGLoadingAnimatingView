@@ -7,7 +7,7 @@
 //
 
 #import "SGLoadingAnimatingView.h"
-#import "UIView+sg_Convenient.h"
+
 static const CGFloat kDeformationLayerWidthAndHeight = 25;
 static const CGFloat kViewDefaultWidth = 60;
 static const CGFloat kViewDefaultHeight = 90;
@@ -130,7 +130,6 @@ static NSTimeInterval kJumpAniamtionTime = 0.43;
     [_deformationLayer removeAllAnimations];
 }
 - (void)initializationWithFrame:(CGRect)frame {
-    NSLog(@"%@",text);
     _loadingViewHelper=[SGLoadingAnimatingViewHelper new];
     _loadingViewHelper.delegate=self;
     
@@ -356,11 +355,6 @@ static NSTimeInterval kJumpAniamtionTime = 0.43;
 
 
 @implementation SGLoadingAnimatingViewHelper
-- (void)dealloc{
-
-    NSLog(@"helper消失了");
-
-}
 - (instancetype)init
 {
     self = [super init];
