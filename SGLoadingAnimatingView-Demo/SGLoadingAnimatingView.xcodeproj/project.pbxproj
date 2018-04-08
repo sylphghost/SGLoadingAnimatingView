@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D71AE62079FC9300E38612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71AE52079FC9300E38612 /* AppDelegate.m */; };
+		07D71AEC2079FC9300E38612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D71AEA2079FC9300E38612 /* Main.storyboard */; };
+		07D71AEE2079FC9400E38612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D71AED2079FC9400E38612 /* Assets.xcassets */; };
+		07D71AF12079FC9400E38612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D71AEF2079FC9400E38612 /* LaunchScreen.storyboard */; };
+		07D71AF42079FC9400E38612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71AF32079FC9400E38612 /* main.m */; };
+		07D71AFE2079FC9400E38612 /* SGLoadingAnimatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71AFD2079FC9400E38612 /* SGLoadingAnimatingViewTests.m */; };
+		07D71B092079FC9400E38612 /* SGLoadingAnimatingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71B082079FC9400E38612 /* SGLoadingAnimatingViewUITests.m */; };
+		07D71B1F2079FD0A00E38612 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71B1A2079FD0A00E38612 /* MBProgressHUD+Add.m */; };
+		07D71B222079FD2200E38612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D71B212079FD2200E38612 /* ViewController.m */; };
+		42CE4D2691C48D6F788BFC88 /* Pods_SGLoadingAnimatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D8C7073D3494AA5FFF4C8D /* Pods_SGLoadingAnimatingView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D71AFA2079FC9400E38612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D71AD92079FC9300E38612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D71AE02079FC9300E38612;
+			remoteInfo = SGLoadingAnimatingView;
+		};
+		07D71B052079FC9400E38612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D71AD92079FC9300E38612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D71AE02079FC9300E38612;
+			remoteInfo = SGLoadingAnimatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D71AE12079FC9300E38612 /* SGLoadingAnimatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGLoadingAnimatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D71AE42079FC9300E38612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D71AE52079FC9300E38612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D71AEB2079FC9300E38612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D71AED2079FC9400E38612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D71AF02079FC9400E38612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D71AF22079FC9400E38612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D71AF32079FC9400E38612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D71AF92079FC9400E38612 /* SGLoadingAnimatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGLoadingAnimatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D71AFD2079FC9400E38612 /* SGLoadingAnimatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGLoadingAnimatingViewTests.m; sourceTree = "<group>"; };
+		07D71AFF2079FC9400E38612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D71B042079FC9400E38612 /* SGLoadingAnimatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGLoadingAnimatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D71B082079FC9400E38612 /* SGLoadingAnimatingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGLoadingAnimatingViewUITests.m; sourceTree = "<group>"; };
+		07D71B0A2079FC9400E38612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D71B182079FD0A00E38612 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		07D71B1A2079FD0A00E38612 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		07D71B202079FD2200E38612 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D71B212079FD2200E38612 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45605F90F8550F9861C9845B /* Pods-SGLoadingAnimatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGLoadingAnimatingView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGLoadingAnimatingView/Pods-SGLoadingAnimatingView.release.xcconfig"; sourceTree = "<group>"; };
+		46D8C7073D3494AA5FFF4C8D /* Pods_SGLoadingAnimatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGLoadingAnimatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D059F1D6160602FFD95D482 /* Pods-SGLoadingAnimatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGLoadingAnimatingView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGLoadingAnimatingView/Pods-SGLoadingAnimatingView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D71ADE2079FC9300E38612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CE4D2691C48D6F788BFC88 /* Pods_SGLoadingAnimatingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71AF62079FC9400E38612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71B012079FC9400E38612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D71AD82079FC9300E38612 = {
+			isa = PBXGroup;
+			children = (
+				07D71AE32079FC9300E38612 /* SGLoadingAnimatingView */,
+				07D71AFC2079FC9400E38612 /* SGLoadingAnimatingViewTests */,
+				07D71B072079FC9400E38612 /* SGLoadingAnimatingViewUITests */,
+				07D71AE22079FC9300E38612 /* Products */,
+				AE1E11A40E27CA14E09961BD /* Pods */,
+				712043658A1D8ED2E5B31724 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07D71AE22079FC9300E38612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D71AE12079FC9300E38612 /* SGLoadingAnimatingView.app */,
+				07D71AF92079FC9400E38612 /* SGLoadingAnimatingViewTests.xctest */,
+				07D71B042079FC9400E38612 /* SGLoadingAnimatingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D71AE32079FC9300E38612 /* SGLoadingAnimatingView */ = {
+			isa = PBXGroup;
+			children = (
+				07D71AE42079FC9300E38612 /* AppDelegate.h */,
+				07D71AE52079FC9300E38612 /* AppDelegate.m */,
+				07D71B202079FD2200E38612 /* ViewController.h */,
+				07D71B212079FD2200E38612 /* ViewController.m */,
+				07D71B182079FD0A00E38612 /* MBProgressHUD+Add.h */,
+				07D71B1A2079FD0A00E38612 /* MBProgressHUD+Add.m */,
+				07D71AEA2079FC9300E38612 /* Main.storyboard */,
+				07D71AED2079FC9400E38612 /* Assets.xcassets */,
+				07D71AEF2079FC9400E38612 /* LaunchScreen.storyboard */,
+				07D71AF22079FC9400E38612 /* Info.plist */,
+				07D71AF32079FC9400E38612 /* main.m */,
+			);
+			path = SGLoadingAnimatingView;
+			sourceTree = "<group>";
+		};
+		07D71AFC2079FC9400E38612 /* SGLoadingAnimatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D71AFD2079FC9400E38612 /* SGLoadingAnimatingViewTests.m */,
+				07D71AFF2079FC9400E38612 /* Info.plist */,
+			);
+			path = SGLoadingAnimatingViewTests;
+			sourceTree = "<group>";
+		};
+		07D71B072079FC9400E38612 /* SGLoadingAnimatingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D71B082079FC9400E38612 /* SGLoadingAnimatingViewUITests.m */,
+				07D71B0A2079FC9400E38612 /* Info.plist */,
+			);
+			path = SGLoadingAnimatingViewUITests;
+			sourceTree = "<group>";
+		};
+		712043658A1D8ED2E5B31724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D8C7073D3494AA5FFF4C8D /* Pods_SGLoadingAnimatingView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE1E11A40E27CA14E09961BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D059F1D6160602FFD95D482 /* Pods-SGLoadingAnimatingView.debug.xcconfig */,
+				45605F90F8550F9861C9845B /* Pods-SGLoadingAnimatingView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D71AE02079FC9300E38612 /* SGLoadingAnimatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D71B0D2079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingView" */;
+			buildPhases = (
+				D3D932658A7E9187306B67E8 /* [CP] Check Pods Manifest.lock */,
+				07D71ADD2079FC9300E38612 /* Sources */,
+				07D71ADE2079FC9300E38612 /* Frameworks */,
+				07D71ADF2079FC9300E38612 /* Resources */,
+				C2ABBB4806F7EBB0FD39C9F6 /* [CP] Embed Pods Frameworks */,
+				155B4838848505C161F26D49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLoadingAnimatingView;
+			productName = SGLoadingAnimatingView;
+			productReference = 07D71AE12079FC9300E38612 /* SGLoadingAnimatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D71AF82079FC9400E38612 /* SGLoadingAnimatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D71B102079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingViewTests" */;
+			buildPhases = (
+				07D71AF52079FC9400E38612 /* Sources */,
+				07D71AF62079FC9400E38612 /* Frameworks */,
+				07D71AF72079FC9400E38612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D71AFB2079FC9400E38612 /* PBXTargetDependency */,
+			);
+			name = SGLoadingAnimatingViewTests;
+			productName = SGLoadingAnimatingViewTests;
+			productReference = 07D71AF92079FC9400E38612 /* SGLoadingAnimatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D71B032079FC9400E38612 /* SGLoadingAnimatingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D71B132079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingViewUITests" */;
+			buildPhases = (
+				07D71B002079FC9400E38612 /* Sources */,
+				07D71B012079FC9400E38612 /* Frameworks */,
+				07D71B022079FC9400E38612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D71B062079FC9400E38612 /* PBXTargetDependency */,
+			);
+			name = SGLoadingAnimatingViewUITests;
+			productName = SGLoadingAnimatingViewUITests;
+			productReference = 07D71B042079FC9400E38612 /* SGLoadingAnimatingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D71AD92079FC9300E38612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sylphghost;
+				TargetAttributes = {
+					07D71AE02079FC9300E38612 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					07D71AF82079FC9400E38612 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 07D71AE02079FC9300E38612;
+					};
+					07D71B032079FC9400E38612 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 07D71AE02079FC9300E38612;
+					};
+				};
+			};
+			buildConfigurationList = 07D71ADC2079FC9300E38612 /* Build configuration list for PBXProject "SGLoadingAnimatingView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D71AD82079FC9300E38612;
+			productRefGroup = 07D71AE22079FC9300E38612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D71AE02079FC9300E38612 /* SGLoadingAnimatingView */,
+				07D71AF82079FC9400E38612 /* SGLoadingAnimatingViewTests */,
+				07D71B032079FC9400E38612 /* SGLoadingAnimatingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D71ADF2079FC9300E38612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D71AF12079FC9400E38612 /* LaunchScreen.storyboard in Resources */,
+				07D71AEE2079FC9400E38612 /* Assets.xcassets in Resources */,
+				07D71AEC2079FC9300E38612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71AF72079FC9400E38612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71B022079FC9400E38612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		155B4838848505C161F26D49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGLoadingAnimatingView/Pods-SGLoadingAnimatingView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ABBB4806F7EBB0FD39C9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SGLoadingAnimatingView/Pods-SGLoadingAnimatingView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SGLoadingAnimatingView/SGLoadingAnimatingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGLoadingAnimatingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGLoadingAnimatingView/Pods-SGLoadingAnimatingView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D932658A7E9187306B67E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGLoadingAnimatingView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D71ADD2079FC9300E38612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D71B222079FD2200E38612 /* ViewController.m in Sources */,
+				07D71AF42079FC9400E38612 /* main.m in Sources */,
+				07D71AE62079FC9300E38612 /* AppDelegate.m in Sources */,
+				07D71B1F2079FD0A00E38612 /* MBProgressHUD+Add.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71AF52079FC9400E38612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D71AFE2079FC9400E38612 /* SGLoadingAnimatingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D71B002079FC9400E38612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D71B092079FC9400E38612 /* SGLoadingAnimatingViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D71AFB2079FC9400E38612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D71AE02079FC9300E38612 /* SGLoadingAnimatingView */;
+			targetProxy = 07D71AFA2079FC9400E38612 /* PBXContainerItemProxy */;
+		};
+		07D71B062079FC9400E38612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D71AE02079FC9300E38612 /* SGLoadingAnimatingView */;
+			targetProxy = 07D71B052079FC9400E38612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D71AEA2079FC9300E38612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D71AEB2079FC9300E38612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D71AEF2079FC9400E38612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D71AF02079FC9400E38612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D71B0B2079FC9400E38612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07D71B0C2079FC9400E38612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D71B0E2079FC9400E38612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D059F1D6160602FFD95D482 /* Pods-SGLoadingAnimatingView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D71B0F2079FC9400E38612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45605F90F8550F9861C9845B /* Pods-SGLoadingAnimatingView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07D71B112079FC9400E38612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGLoadingAnimatingView.app/SGLoadingAnimatingView";
+			};
+			name = Debug;
+		};
+		07D71B122079FC9400E38612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGLoadingAnimatingView.app/SGLoadingAnimatingView";
+			};
+			name = Release;
+		};
+		07D71B142079FC9400E38612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGLoadingAnimatingView;
+			};
+			name = Debug;
+		};
+		07D71B152079FC9400E38612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SGLoadingAnimatingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylphghost.SGControllerTransition.SGLoadingAnimatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGLoadingAnimatingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D71ADC2079FC9300E38612 /* Build configuration list for PBXProject "SGLoadingAnimatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D71B0B2079FC9400E38612 /* Debug */,
+				07D71B0C2079FC9400E38612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D71B0D2079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D71B0E2079FC9400E38612 /* Debug */,
+				07D71B0F2079FC9400E38612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D71B102079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D71B112079FC9400E38612 /* Debug */,
+				07D71B122079FC9400E38612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D71B132079FC9400E38612 /* Build configuration list for PBXNativeTarget "SGLoadingAnimatingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D71B142079FC9400E38612 /* Debug */,
+				07D71B152079FC9400E38612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D71AD92079FC9300E38612 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SGLoadingAnimatingView {
+  umbrella header "SGLoadingAnimatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

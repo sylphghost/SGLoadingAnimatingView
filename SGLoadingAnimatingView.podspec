@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'SGLoadingAnimatingView'
   s.summary      = 'A wonderful loading animation.'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'sylphghost' => 'sylphghost@outlook.com' }
   s.homepage     = 'https://github.com/sylphghost/SGLoadingAnimatingView'
