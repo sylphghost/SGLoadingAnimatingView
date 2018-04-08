@@ -4,7 +4,7 @@
 
 **A wonderful loading animation.**
 
-![SGLoaingAnimate](media/15231887563823/SGLoaingAnimate.gif)
+![SGLoaingAnimate](https://github.com/sylphghost/SGLoadingAnimatingView/blob/master/SGLoaingAnimate.gif)
 
 
 # Usage
